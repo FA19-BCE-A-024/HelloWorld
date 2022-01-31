@@ -1,0 +1,51 @@
+/* #top {
+  margin: 5px;
+}
+#container {
+  margin: 5px;
+}
+#left {
+  margin: 5px;
+}
+#right {
+  margin: 5px;
+}
+#content {
+  margin: 5px;
+} */
+
+div {
+  border: 1px solid red;
+  margin: 11px;
+}
+
+#container {
+  margin-left: 50px;
+  margin-right: 50px;
+  overflow: hidden;
+}
+
+#left {
+  background-color: lightseagreen;
+  width: 20%;
+  float: left;
+}
+
+#right {
+  background-color: yellow;
+  width: 20%;
+  float: right;
+}
+
+#content {
+  background-color: lightpink;
+}
+
+#covid {
+  width: 100px;
+  float: right;
+}
+
+#content p {
+  overflow: hidden;
+}

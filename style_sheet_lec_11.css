@@ -1,0 +1,47 @@
+#second {
+  color: white;
+  background-color: black;
+  position: relative;
+  top: 35px;
+}
+
+/* in relative positioning the paragraph over writes the other but the initial paragraph does not leave
+it's original position */
+
+#third {
+  background-color: yellow;
+}
+
+#announcement {
+  background-color: yellow;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  /* right: 50px;
+  bottom: 20%; */
+}
+
+/* through fixed position the tag or the info stays in the same postion
+ as it was placed in the fisrt place */
+
+#stick {
+  background-color: thistle;
+  position: sticky;
+  top: 0;
+}
+
+/* difference between sticky and fixed faida dono kah jab kaam ek ho raha hai  */
+
+/* what does span do and why do we use span */
+
+#first {
+  position: relative;
+}
+
+#abs {
+  color: white;
+  background: orange;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}

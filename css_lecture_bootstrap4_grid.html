@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- <link rel="stylesheet" href="./style_sheet_lec_11_1_b_4.css" /> -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style_sheet_lec_11_1_b_4.css" />
+  </head>
+
+  <!-- container class is normally given to body tag 
+        but can also be given to row class -->
+
+  <body class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary my-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar w/ text</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <span class="navbar-text"> Navbar text with an inline element </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ask sir about portions  especially these two below portions -->
+    <div class="row">
+      <div class="col-2">
+        Horizontal Navigation
+
+        <br />
+
+        <a href="" class="btn btn-info btn-orange"> Hello </a>
+      </div>
+
+      <div class="col-10">
+        <div class="row">
+          <div
+            class="col-12 col-md-4 col-lg-3 col-sm-6 border border-info rounded"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            quaerat, reiciendis autem saepe sunt corrupti harum excepturi beatae
+            illum laborum perspiciatis, impedit ratione nulla maxime quod,
+            numquam eos! Quis, nemo.
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+            Vitae corporis amet facilis quaerat consequatur! Neque reiciendis
+            voluptatibus ipsum sequi dolor est repellendus, quis aliquam tempora
+            sint magni eligendi natus quibusdam fugiat! Corrupti blanditiis
+            saepe ipsam veniam nihil similique.
+          </div>
+          <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+            Sapiente, saepe omnis, est repudiandae harum at ratione nisi
+            dolorem, velit consectetur nemo et delectus assumenda? Dolorum et
+            reiciendis tempore harum nobis iusto magni eum! Illum dolorum labore
+            soluta! Facere?
+          </div>
+          <!-- sir sey question that can a condition on a div can effect other divs as well -->
+          <!-- 4th column will take full width becuz condition changed on 4th column -->
+          <!-- it does not work like the video ask sir -->
+
+          <div class="col-12 col-md-12 col-lg-3 col-sm-6">
+            Dolore inventore fugiat rerum vero voluptatem nisi dolorem, impedit
+            totam consequatur dolor harum pariatur? Maiores magni sint deserunt
+            consequuntur reprehenderit ea porro earum iste nesciunt! Numquam
+            repudiandae fugit optio quaerat.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <button
+        type="button"
+        class="close"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <strong> Hello </strong> you are awesome
+    </div>
+
+    <script>
+      $(".alert").alert();
+    </script>
+
+    <!-- all the columns are contained in a container -->
+    <!-- the sapce on the right and on the left is adjusted automatically according to 
+    screen resolution -->
+
+    <!-- class="col-12 col-md-4 col-lg-3 col-sm-6 border border-info pl-4 my-5" -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

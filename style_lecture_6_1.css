@@ -1,0 +1,37 @@
+/* first using ul tag only with list style type decimal */
+
+/* ul {
+  list-style-type: decimal;
+} */
+
+/* second using  ul tag list style type none */
+
+/* ul {
+  list-style-type: none;
+} */
+
+/* third using  li tag and display none and inline */
+
+/* li {
+  display: inline;
+} */
+
+/* now give colours */
+
+ul {
+  list-style-type: none;
+  background-color: green;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  background-color: red;
+  padding: 2px;
+  margin: 1px;
+}
+a {
+  color: lightpink;
+}
+
+/* now link multiple pages with your web pages */
